@@ -1,0 +1,119 @@
+html{
+font-family: sans-serif;
+}
+body{
+    background-color:white;
+}
+.box{
+    background-color:rgb(95, 95, 244);
+    margin-top: 80px;
+    padding-left: 40px;
+    text-align: center;
+    font-family: sans-serif ;
+    padding-top: 30px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+
+#new:hover{
+    cursor: pointer;
+    
+}
+
+#new:hover .icon{
+    padding-right: 7px;
+    transition: 0.15s;
+    transition-timing-function: ease-in;
+    
+}
+
+.player-0{
+    padding-bottom: 60px;
+}
+
+.player-1{
+    padding-bottom: 60px;
+}
+
+.score-0{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.score-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.current-box{
+    background-color: orange;
+    margin: auto;
+    width: 30%;
+    color: black;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.dice-box img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 60px;
+}
+
+.dice-box{
+    margin-top: 70px;
+}
+
+#rotate{
+    cursor: pointer;
+   
+}
+
+#rotate:hover .r-icon{
+     padding-right: 7px;
+    transition: 0.15s;
+    transition-timing-function: ease-in;
+}
+
+#hold {
+    cursor: pointer;
+   
+}
+
+#hold:hover .h-icon{
+     padding-right: 7px;
+    transition: 0.15s;
+    transition-timing-function: ease-in;
+}
+
+.player-0 i{
+    display: none;
+}
+
+.player-1 i{
+    display: none;
+}
+
+.active{
+    font-weight: 900;
+    color: orange;
+}
+
+.active i {
+    display: inline;
+    font-size: 17px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
